@@ -16,16 +16,55 @@
 .burger .two,
 .burger .three {
   margin-top: 3px;
-  background: #258ecd;
-  width: 33px;
-  height: 4px;
+  background: #0050cc;
+  width: 24px;
+  height: 3px;
   position: absolute;
   border-radius: 2px;
 }
 .burger .two {
-  margin-top: 13px;
+  margin-top: 11px;
+  width: 18px;
 }
 .burger .three {
-  margin-top: 23px;
+  margin-top: 21px;
 }
 
+div.flash.notice {
+  /* border: none; */
+  border-left: 20px solid #1abb9b;
+  background: none;
+  background-color: rgba(0, 255, 0, 0.1);
+  padding-left: 10px;
+  border-radius: 4px;
+  /* color: black; */
+  padding: 15px 25px;
+}
+
+#content .tabs ul li a {
+  display: block;
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 1.3em;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbbbbb;
+  color: #999;
+  font-weight: bold;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#main-menu li a.selected,
+#main-menu li a.selected:hover {
+  border-bottom: 2px solid #0050cc;
+}
+
+#main-menu li a {
+  color: #848f9f;
+  text-transform: initial;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-bottom: 2px solid #fff;
+  font-size: 15px;
+}

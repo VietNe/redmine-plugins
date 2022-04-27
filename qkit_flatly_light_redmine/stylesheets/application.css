@@ -402,3 +402,22 @@ select[onchange="if (this.value != '') { window.location = this.value; }"] {
   top: 17px;
   right: 10px;
 }
+
+.tabular label {
+  font-weight: bold;
+  float: left;
+  /* text-align: right; */
+  margin-left: -180px;
+  width: 175px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+em.info {
+  font-style: italic;
+  display: block;
+  font-size: 90%;
+  color: #888;
+  font-size: 14px;
+  /* font-weight: 500; */
+}
